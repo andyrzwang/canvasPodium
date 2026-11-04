@@ -5,7 +5,7 @@
   "description": "Displays a course leaderboard podium on SFU Canvas.",
   "content_scripts": [
     {
-      "matches": ["https://canvas.XXX.ca/*"],
+      "matches": ["https://canvas.XXXX.ca/*"],
       "css": ["styles.css"],
       "js": ["content.js"],
       "run_at": "document_end"
