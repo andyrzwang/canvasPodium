@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas Course Podium",
+  "version": "1.0",
+  "description": "Displays a course leaderboard podium on SFU Canvas.",
+  "content_scripts": [
+    {
+      "matches": ["https://canvas.XXX.ca/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
